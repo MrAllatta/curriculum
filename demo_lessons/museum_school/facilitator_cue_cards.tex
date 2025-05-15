@@ -1,0 +1,83 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlist[itemize]{noitemsep, topsep=0pt, left=1em}
+\titleformat{\section}{\bfseries\large}{}{0em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{}{0em}{}
+
+\pagestyle{empty}
+\begin{document}
+
+\section*{Cue Card 1: Hook – Contracts You Didn't Read (5 mins)}
+\textbf{Say:}
+\begin{itemize}
+  \item "You’ve all checked a box agreeing to Terms and Conditions—and skipped reading it. That’s a contract."
+  \item "CS uses contracts too. A function contract says: input, output, and purpose."
+\end{itemize}
+\textbf{Quick Write:} What’s a contract in computer science?
+\textbf{Meta:} Students already intuit systems—they’re just not used to formalizing them.
+
+\section*{Cue Card 2: Primer – Known Functions (5 mins)}
+\textbf{Model:}
+\begin{itemize}
+  \item \texttt{print()} → input: string → output: text
+  \item \texttt{search("boba")}: input: string → output: location list
+\end{itemize}
+\textbf{Ask:} What's the contract for your PB\&J or cypher activity?
+\textbf{Meta:} Abstraction begins with recognizing structure in actions.
+
+\section*{Cue Card 3: Contract Hunt – Abstract Analysis (15 mins)}
+\textbf{Directions:}
+\begin{itemize}
+  \item Underline input, circle output, bracket purpose.
+  \item Fill out contract table in own words.
+\end{itemize}
+\textbf{While Circulating, Ask:}
+\begin{itemize}
+  \item "Is that really the input—or just context?"
+  \item "What does this system assume?"
+\end{itemize}
+\textbf{Meta:} All systems encode assumptions. Good design surfaces them.
+
+\section*{Cue Card 4: Whole-Class Share + Pixel Example (8 mins)}
+\textbf{Board Contract Example:} Choose 1 abstract. Build contract live.
+\begin{itemize}
+  \item Invite revisions. Prompt: "Does this work for everyone?"
+\end{itemize}
+\textbf{Anchor Example – MTA + Google Pixel:}
+\begin{itemize}
+  \item Sensors detect vibration → ML flags defects → Alert
+  \item Limitations: sensor access, signal quality, human response
+\end{itemize}
+\textbf{Bridge Line:} "What problems could we solve, if we had the right data?"
+
+\section*{Cue Card 5: Invent-a-Tool Design (7 mins)}
+\textbf{Prompt:}
+\begin{itemize}
+  \item "Think of something broken around you—school, commute, systems."
+  \item "Define the contract: Input / Output / Purpose / Risks"
+\end{itemize}
+\textbf{Support Questions:}
+\begin{itemize}
+  \item What’s the input? What could go wrong?
+  \item Who benefits? Who’s left out?
+\end{itemize}
+\textbf{Meta:} Not “make an app”—see the system, name the gap.
+
+\section*{Cue Card 6: GPT + Exit Ticket (3–5 mins)}
+\textbf{Say:}
+\begin{itemize}
+  \item "GPT can reflect what’s been said—it can’t sense your world."
+  \item "You’re learning to build the tools that don’t exist yet."
+\end{itemize}
+\textbf{Exit Prompt:} Why do we define contracts before we code?
+\textbf{Meta:} Code without clarity is just noise. Contract is clarity.
+
+\end{document}

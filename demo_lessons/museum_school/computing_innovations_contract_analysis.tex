@@ -1,0 +1,187 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\title{Computing Innovations Contract Analysis}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{itemize}
+\item \textbf{States Turn to AI to Spot Guns at Schools} \\
+\textit{Associated Press} (May 12, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-05-may#15} (2024)\\
+\textbf{Abstract:} Several U.S. states are considering or enacting programs to fund AI-powered surveillance systems that automatically detect people carrying firearms in school camera feeds. A prominent example is ZeroEyes, a computer-vision system that analyzes live video for visible guns and alerts authorities within seconds. In Kansas, a pending bill was written so narrowly (requiring the AI to be patented and already used in over 30 states) that only ZeroEyes meets the criteria, raising questions about lobbying. The goal is to enhance school safety by identifying threats faster than human staff could.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Clear
+\item \textbf{Computing Inputs:} Live security camera video streams in schools.
+\item \textbf{Outputs:} Real-time alerts/notifications when a firearm is detected, including location info.
+\item \textbf{Purpose:} Quickly identify and respond to gun threats on school grounds.
+\item \textbf{Notes:} Easy for students to model as a function from video input to alert output. Good for discussing accuracy and ethical tradeoffs in surveillance.
+\end{itemize}
+
+\item \textbf{Smart Cameras Spot Wildfires Before They Spread} \\
+\textit{The Wall Street Journal} (Mar 2, 2025)\\
+\href{https://technews.acm.org/archives.cfm?fo=2025-03-mar#33} (2025)\\
+\textbf{Abstract:} The ALERTCalifornia project deploys a network of over 1,150 mountaintop cameras paired with AI 'digital lookouts' to catch wildfires early. The AI scans live feeds from fire-prone areas and has detected more than 1,200 fires, sometimes alerting authorities faster than 911 callers. Human operators then verify the blaze and dispatch firefighters. The system turns camera imagery into early warnings, demonstrating a direct input-output loop.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Clear
+\item \textbf{Computing Inputs:} Streaming video images from remote wildfire cameras.
+\item \textbf{Outputs:} Alerts when smoke or fire is detected, with location info.
+\item \textbf{Purpose:} Detect wildfires faster than human observers to allow rapid response.
+\item \textbf{Notes:} Strong visual tie to pattern recognition. Easily expressed as a function from image to alert. Promotes discussion on model training and verification.
+\end{itemize}
+
+\item \textbf{BCI Decodes Words “Spoken” in the Brain in Real Time} \\
+\textit{Medical Xpress} (May 14, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-05-may#16} (2024)\\
+\textbf{Abstract:} Researchers at Caltech developed a brain–computer interface (BCI) that can translate neural signals into words in real time. The system records neuron firing in speech-related brain regions and was trained on a small vocabulary. In tests, the BCI identified words the user was trying to say in their mind with up to 79% accuracy. It maps brain activity to language, turning electrical signals into computer-readable output.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Clear
+\item \textbf{Computing Inputs:} Neural firing data from electrodes implanted in the brain.
+\item \textbf{Outputs:} Decoded words or text reflecting intended speech.
+\item \textbf{Purpose:} Enable communication for people who cannot speak.
+\item \textbf{Notes:} Excellent for teaching signal decoding and function modeling. Ethical implications add depth to discussion.
+\end{itemize}
+
+\item \textbf{Generative AI Scans Your Amazon Packages for Defects Before Shipment} \\
+\textit{Fast Company} (June 3, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-06-jun#21} (2024)\\
+\textbf{Abstract:} Amazon deployed an AI system called 'Project P.I.' to inspect packages at fulfillment centers. The system uses computer vision to analyze each box before it ships, checking for missing, incorrect, or defective items. It flags problems before delivery, improving accuracy and sustainability by reducing waste from incorrect shipments.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Clear
+\item \textbf{Computing Inputs:} Photos of package contents and expected item metadata.
+\item \textbf{Outputs:} Pass/fail classification or defect alerts.
+\item \textbf{Purpose:} Ensure accurate, undamaged deliveries to customers.
+\item \textbf{Notes:} Relatable task for students—can be simulated as a Boolean function. Great for discussing practical AI in logistics.
+\end{itemize}
+
+\item \textbf{3D Printing Paves Way for Personalized Medication} \\
+\textit{University of Nottingham News} (May 14, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-05-may#17} (2024)\\
+\textbf{Abstract:} Researchers developed a 3D printing method that allows multiple medications to be combined into one pill. Using UV-sensitive materials, the printer creates structures that release drugs at controlled times. This makes it possible to tailor a pill's content and dosage to individual patients’ needs.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Clear
+\item \textbf{Computing Inputs:} Patient-specific dosage and release timing parameters.
+\item \textbf{Outputs:} A single pill combining multiple drugs with custom release profiles.
+\item \textbf{Purpose:} Simplify medication regimens through tailored combination pills.
+\item \textbf{Notes:} Excellent connection to parameter-driven program design. Concrete and tangible product makes it engaging for students.
+\end{itemize}
+
+\item \textbf{New Techniques to Stop Audio Deepfakes} \\
+\textit{IEEE Spectrum} (May 30, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-05-may#48} (2024)\\
+\textbf{Abstract:} In a U.S. contest to combat AI-generated voice “deepfakes,” researchers showcased multiple complementary innovations. The winning entries included OriginStory – a modified microphone that monitors a speaker’s physiological signals to verify a live human voice – and AI Detect – software that embeds machine learning into audio processing devices to spot signs of an artificial voice. Another solution, DeFake, adds subtle distortions to genuine recordings to prevent adversaries from cloning a voice.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} Audio waveforms, biometric data (e.g., vocal cord vibrations), and clean source files.
+\item \textbf{Outputs:} Authentication decision, adversarially modified output, confidence score.
+\item \textbf{Purpose:} Defend against AI voice spoofing in authentication and media systems.
+\item \textbf{Notes:} Highlights complementary strategies (detection vs. prevention). Illustrates layered system design and ethical implications.
+\end{itemize}
+
+\item \textbf{Self-Replicating ‘Life’ Created from Digital ‘Primordial Soup’} \\
+\textit{New Scientist} (July 9, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-07-jul#27} (2024)\\
+\textbf{Abstract:} Google researchers produced artificial life by mixing random code snippets into a shared environment where they could recombine, mutate, and execute. Some aggregates began to self-replicate and compete for limited computational resources. Over time, these digital organisms evolved, with new variants outcompeting earlier ones.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} Random code snippets and environmental simulation rules.
+\item \textbf{Outputs:} Emergent self-replicating programs and ecosystem dynamics.
+\item \textbf{Purpose:} Explore digital evolution and artificial life without hardcoding behavior.
+\item \textbf{Notes:} Demonstrates emergence; no clear input/output mapping. Useful for abstraction and systems thinking.
+\end{itemize}
+
+\item \textbf{Stores Roll Out AI-Powered Vending Machines That Sell Bullets} \\
+\textit{Gizmodo} (July 5, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-07-jul#29} (2024)\\
+\textbf{Abstract:} American Rounds is deploying vending machines that sell ammunition using facial recognition and ID scanning. Customers must scan their ID and face, which is matched using AI to verify their identity and age. If all checks pass, the machine dispenses bullets. The system replaces human clerks with an automated process integrating several layers of input verification.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} ID scan data, facial image, possibly background checks or validation against stored records.
+\item \textbf{Outputs:} Approval/denial of purchase; physical release of product (ammunition).
+\item \textbf{Purpose:} Sell ammunition while enforcing legal restrictions via automation.
+\item \textbf{Notes:} Good for ethics discussions and conditional logic modeling; layered function contract with societal implications.
+\end{itemize}
+
+\item \textbf{‘Robotability Score’ Ranks NYC Streets for Robot Deployment} \\
+\textit{Cornell Chronicle} (Apr 30, 2025)\\
+\href{https://technews.acm.org/archives.cfm?fo=2025-04-apr#39} (2025)\\
+\textbf{Abstract:} Cornell researchers developed a 'robotability score' to rank New York City streets based on how well they support robot navigation. The system uses data from NYC’s open datasets, along with image analysis from millions of street-level photos, to evaluate obstacles and crowding. This layered model generates a composite score indicating how suitable each street is for automated mobility solutions.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} Open street data (sidewalk widths, bike lanes, etc.), millions of street-level images analyzed with computer vision.
+\item \textbf{Outputs:} Numeric robotability scores for each street segment.
+\item \textbf{Purpose:} Guide robot deployment and urban planning for automation.
+\item \textbf{Notes:} Demonstrates weighted input fusion and modeling; invites mapping functions to visual outputs and broader design feedback loops.
+\end{itemize}
+
+\item \textbf{Eye-Scanning ID Project Launches in U.S.} \\
+\textit{CNBC} (Apr 30, 2025)\\
+\href{https://technews.acm.org/archives.cfm?fo=2025-04-apr#41} (2025)\\
+\textbf{Abstract:} Worldcoin's World ID project is bringing biometric identity verification to the public through iris-scanning Orbs. The scan generates a cryptographic hash that proves a user is unique without storing their personal data. This credential can then be used to log into apps like Reddit or Minecraft to verify that the user is human, not a bot.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} High-resolution iris images; requestor queries from applications for identity verification.
+\item \textbf{Outputs:} Cryptographic World ID token or yes/no proof of personhood.
+\item \textbf{Purpose:} Create a global, privacy-preserving system to verify real humans online.
+\item \textbf{Notes:} Illustrates secure one-way functions; connects identity, privacy, and cryptographic logic to CS concepts.
+\end{itemize}
+
+\item \textbf{MTA Used Google Pixels to Identify Subway Track Defects} \\
+\textit{Engadget} (Feb 28, 2025)\\
+\href{https://technews.acm.org/archives.cfm?fo=2025-02-feb#35} (2025)\\
+\textbf{Abstract:} New York City’s MTA collaborated with Google to pilot an AI-based track monitoring tool called \textit{TrackInspect}. Off-the-shelf Google Pixel smartphones were mounted inside subway cars to continuously collect motion and sound data using built-in sensors like accelerometers, gyroscopes, and microphones. These sensor readings were processed by machine learning algorithms to detect anomalies in track conditions. Over the trial period, the system successfully identified about 92\% of the track defects later confirmed by human inspectors, demonstrating that consumer-grade hardware combined with computing intelligence can be a powerful tool in infrastructure maintenance.\\
+\textbf{Analysis:}
+\begin{itemize}
+\item \textbf{Category:} Clear
+\item \textbf{Computing Inputs:} Time-series sensor data (vibration, motion, audio) from Google Pixel devices in moving subway cars.
+\item \textbf{Outputs:} Reports of detected anomalies with location tagging, such as suspected cracks, dips, or rail misalignments.
+\item \textbf{Purpose:} Enable preventive maintenance by identifying faulty track segments before failures occur, improving subway safety and reliability.
+\item \textbf{Notes:} Highly accessible for students—clear mapping from input (sensor readings) to output (maintenance alert). Encourages discussion of thresholds, confidence scores, false positives, and the re-use of everyday devices for real-time computing applications.
+\end{itemize}
+
+\item \textbf{Wearable Pediatric Soft Exoskeleton Made of Smart Materials} \\
+\textit{University of Houston News} (Apr 29, 2025)\\
+\href{https://technews.acm.org/archives.cfm?fo=2025-04-apr#41} (2025)\\
+\textbf{Abstract:} Engineers developed MyoStep, a wearable exoskeleton designed for children with cerebral palsy. The device uses soft actuators and sensors to detect motion and provide assistive force to help with walking. It dynamically adjusts to the child’s gait and growth, enabling physical therapy and mobility improvements in real time.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} Sensor data on limb motion, pressure, timing from the child’s body and wearable suit.
+\item \textbf{Outputs:} Calibrated assistive force via soft actuators applied in sync with motion.
+\item \textbf{Purpose:} Support pediatric mobility and rehabilitation through responsive wearable robotics.
+\item \textbf{Notes:} Highlights real-time sensor-actuator feedback loops; excellent for exploring dynamic systems and function composition.
+\end{itemize}
+
+\item \textbf{Digital Twins Used to Improve Built Environments for Robots} \\
+\textit{The Engineer (UK)} (June 3, 2024)\\
+\href{https://technews.acm.org/archives.cfm?fo=2024-06-jun#48} (2024)\\
+\textbf{Abstract:} Researchers are building digital twins—virtual simulations of real environments—to test robot deployment. They scan and map building features, simulate robot behavior in the digital space, then suggest modifications to improve robot performance. This three-phase system combines spatial data, simulation modeling, and architectural feedback.\\
+\textbf{Analysis:}\\
+\begin{itemize}
+\item \textbf{Category:} Ambiguous/Layered
+\item \textbf{Computing Inputs:} 3D building scan data, robot behavior models, digital simulation parameters.
+\item \textbf{Outputs:} Design recommendations or simulation performance metrics.
+\item \textbf{Purpose:} Improve human-robot interaction through predictive environmental modeling.
+\item \textbf{Notes:} Great example of composed function chains and system-level thinking; shows abstraction in action through multi-step modeling.
+\end{itemize}
+\end{itemize}
+\end{document}

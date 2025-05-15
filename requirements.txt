@@ -1,0 +1,6 @@
+langchain
+openai
+pdfplumber
+pandas
+jinja2
+markdown2

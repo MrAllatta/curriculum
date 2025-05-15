@@ -1,0 +1,199 @@
+AP Computer Science A Syllabus ====================================
+
+AP Computer Science A introduces students to core principles of
+computer science with an emphasis on Java programming, responsible
+computing practices, and rigorous conceptual understanding inspired by
+Program by Design pedagogy. Students consistently employ explicit
+contracts, preconditions, examples, and computational thinking
+practices to build robust programs.
+
+Curricular Requirements (CRs):
+
+CR1. College-Level Textbook
+--------------------------------
+Students and teachers have access to the following college-level
+computer science textbook:
+
+- Cay Horstmann, "Big Java: Early Objects," 7th Edition, Wiley (2020)
+
+Additionally, supplementary materials from "Introduction to
+Programming Using Java" by David Eck (online textbook) are utilized.
+
+CR2. Course Content Aligns with AP Framework
+----------------------------------------------
+The course is structured around the following units directly aligned
+with the AP Computer Science A Course and Exam Description (effective
+fall 2025):
+
+- Unit 1: Foundations, Contracts, Data Types, and Methods
+- Unit 2: Designing Algorithms with Conditionals and Iteration
+- Unit 3: Designing Classes, Data Encapsulation, and Abstraction
+- Unit 4: Thinking with Collections of Data (arrays, ArrayLists,
+  sorting, recursion)
+- Review, Practice Projects, and Exam Preparation (integrated
+  throughout)
+
+(Explicit unit outlines and essential questions are detailed further
+below.)
+
+CR3. Computational Thinking Practice 1: Design Code
+------------------------------------------------------
+Sample Activity (Skill 1.A: Identifying program components) "Thinking
+with Data Lab": Students independently choose a real-world dataset
+(e.g., census demographic data, local weather data) and design two or
+more classes to represent essential entities and their relationships.
+Students explicitly define data representation via instance variables,
+constructors, and data invariants to maintain consistency and
+correctness in each class design.
+
+CR4. Computational Thinking Practice 2: Develop Code
+------------------------------------------------------
+Sample Activity (Skill 2.B and 2.C: Implementing algorithms and
+calling methods) "Data Analysis Lab": Students write Java code that
+reads structured CSV data (e.g., movie ratings). They implement
+methods that traverse ArrayLists to answer analytical questions
+(average rating per genre, highest-rated film, etc.) based explicitly
+on designed examples. Students then extend their class implementation
+to generate summary reports and data visualizations (text-based
+histograms).
+
+CR5. Computational Thinking Practice 3: Analyze Code
+------------------------------------------------------
+Sample Activity (Skill 3.B: Determine outputs or identify errors) In
+iterative "Code Clinics," students analyze peer-provided or
+instructor-provided Java code fragments featuring classic errors such
+as off-by-one indexing and precondition violations in loop traversals
+or method calls. Students explicitly reason about expected vs. actual
+output, identify and correct logical issues, and articulate
+preconditions that prevent such errors.
+
+CR6. Computational Thinking Practice 4: Document Code
+-------------------------------------------------------
+Sample Activity (Skill 4.A and 4.B: Documentation and preconditions)
+"Contracts and Preconditions Exercises": Using JavaDoc standards,
+students add explicit method contracts documenting purpose (@param,
+@return), expected behaviors, and preconditions. Throughout the
+exercises, students note instances where preconditions matter
+critically, implementing explicit runtime checks or additional
+documentation explaining assumed responsibilities and state
+invariants.
+
+CR7. Computational Thinking Practice 5: Use Computers Responsibly
+-------------------------------------------------------------------
+Sample Activity (Skill 5.A: Impacts of computing) "Ethics of Data and
+Privacy Seminar": Regular structured discussions where students
+analyze readings/case studies (e.g., social media mining, algorithmic
+bias in data-driven systems, privacy breaches). Students reflect
+(through short position papers/panel presentations) on how
+computational practices significantly impact societal norms, privacy
+expectations, economic fairness, and cultural practices.
+
+CR8. Hands-On Labs (20 hours+ required)
+--------------------------------------
+Explicit Statement: At least 20 hours of in-class instructional time
+is dedicated to hands-on, computer-based programming labs.
+
+Sample Labs:
+- Lab #1: Data & Decisions Project (~6 hours): Students design and
+  implement an object-oriented Java program simulating a
+  decision-making process on data. Students formulate clear examples
+  and predictable outputs and explicitly document contract
+  preconditions to guide a robust design. (For instance, choosing
+  which universities to recommend based on weighted factors like
+  location preference, tuition budget, majors available.)
+
+- Lab #2: Ethical Data-Driven Programming (~6 hours): Integrating
+  real-world datasets (such as public health records, transportation
+  usage), students build data analysis programs. They must explicitly
+  reason about ethical implications in data representation, analysis,
+  and reporting (e.g., protecting privacy, acknowledging potential
+  biases). Students implement explicit tests and documentation to
+  illustrate expected behavior clearly and to ensure correctness in
+  manipulating sensitive datasets.
+
+Detailed Course Outline (Aligned with AP CED)
+=================================================
+
+Unit 1. Foundations, Contracts, Data Types, and Methods (~6 weeks)
+---------------------------------------------------
+- Emphasis on explicit representation of data, contracts (parameter
+  types, purposes, preconditions, examples), primitive/reference
+  variables, method definitions, built-in APIs (Strings, Math),
+  clarity in calling methods.
+- Includes Unit Progress Checks (topics 1.1–1.15), FRQ practice
+  (Methods, partial implementation).
+
+Unit 2. Designing Algorithms with Conditionals and Iteration (~6
+weeks)
+---------------------------------------------------
+- Boolean logic, explicit conditional reasoning (=if-else=), loops
+  (=while=, =for= loops), boundary conditions, deliberate reasoning
+  through examples and tests.
+- Students explicitly reason about correctness and preconditions to
+  prevent common logical errors (off-by-one).
+- Includes Unit Progress Checks (topics 2.1–2.12), FRQ practice.
+
+Unit 3. Designing Classes, Data Encapsulation, and Abstraction (~4
+weeks)
+---------------------------------------------------
+- Fundamental object-oriented concepts, explicit object
+  representation, constructors, invariants, encapsulation using
+  =private=/=public=, procedural abstraction.
+- Ethical implications of class design, privacy considerations.
+- Includes Unit Progress Checks (topics 3.1–3.9), FRQ practice (Class
+  Design).
+
+Unit 4. Thinking with Collections of Data (~7 weeks)
+---------------------------------------------------
+- Arrays, ArrayLists, traversal patterns (explicit examples and
+  tests), standard algorithms (sum, search, sort, reverse), 2D arrays,
+  recursion.
+- Responsible data practices, evaluating external datasets, ethical
+  considerations.
+- Includes Unit Progress Checks (topics 4.1–4.17), extensive FRQ
+  practice.
+
+Review, Project & Exam Preparation (~5 weeks, interspersed)
+---------------------------------------------------
+- Mid-year, end-year mock exams, integrated FRQ practice, significant
+  programming projects emphasizing contracts, preconditions, data
+  structures, algorithms, reflection activities.
+
+Instructional Strategies
+=================================================
+- Explicitly design-driven, focusing on examples and tests before
+  coding.
+- Contracts-driven design, explicit preconditions.
+- Collaborative problem-solving, explicit reasoning, pair programming.
+- Structured reflection on ethical implications and responsible
+  computing.
+- Scaffolded strategies inspired by Program by Design ("How to Design
+  Programs") approach: example-driven programming, rigorous testing
+  and reflection early in programming tasks.
+
+Tools and IDEs =================================================
+- BlueJ or DrJava initially recommended; options for advanced IDEs
+  (Eclipse, VSCode) introduced later.
+- Lightweight REPL encouraged exploring Java concepts explicitly.
+- Emacs-style editing and explicit disciplined programming habits
+  encouraged.
+
+Integration of AI =================================================
+- AI-supported explanations for complex code, solution refinement;
+  students explicitly critique and improve upon AI-generated code
+  snippets.
+- Public discussion on AI-related ethical issues and algorithmic bias.
+
+Assessment Strategy =================================================
+- Assessments closely aligned with AP CS A CED: frequent formative
+  checks (MC and FRQs), explicit analyses of errors, and reasons for
+  correctness or incorrectness, emphasizing authentic AP-style exam
+  practice.
+
+Final Comments =================================================
+This explicit, structured syllabus emphasizes careful and disciplined
+computational thinking, aligned with AP CS A CED (effective fall 2025)
+while maintaining an educational philosophy grounded in rigorous
+design contracts, careful precondition management, explicit reasoning
+through data and examples, and responsible computing practices
+inspired by the Program by Design approach.
