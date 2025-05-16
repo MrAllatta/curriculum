@@ -1,0 +1,117 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.35in]{geometry}
+\usepackage{titlesec}
+\titlespacing*{\section}
+  {0pt}    % left indent
+  {0pt}  % space *before* section
+  {0.5em}  % space *after* section
+
+\titlespacing*{\subsection}
+  {0pt}
+  {0pt}
+  {0.25em}
+
+
+\usepackage{enumitem}
+\setlist[itemize]{nosep, left=1em}
+
+
+
+\usepackage{hyperref}
+\usepackage{setspace}
+\doublespacing
+\usepackage{ulem} % for underline
+\usepackage{amsmath}
+\usepackage{helvet} % Use Helvetica font
+\renewcommand{\familydefault}{\sfdefault} % Set sans-serif as default
+
+\usepackage{tikz}
+
+\newcommand{\dotgridboxsize}[3]{% width, height, spacing
+    \begin{tikzpicture}[x=1in, y=1in]
+      \pgfmathsetmacro{\cols}{#1/#3}
+      \pgfmathsetmacro{\rows}{#2/#3}
+      \foreach \x in {0,...,\cols} {
+        \foreach \y in {0,...,\rows} {
+          \fill[black] (\x*#3, -\y*#3) circle (0.4pt);
+        }
+      }
+    \end{tikzpicture}
+}
+
+\title{Contract Detective Handout}
+\date{}
+\begin{document}
+
+\noindent\textbf{Name:} \hspace{3in} \textbf{Date:} \vspace{1em}
+
+\begin{center}
+  \textbf{Contract Detective: What's the Contract?} \\
+  \textit{Computing in the News}
+\end{center}
+
+\section*{Warm-Up: Prior Knowledge}
+What do you think a “contract” is in computer science? Use your own words.
+
+\vspace{1em}
+
+\dotgridboxsize{7}{1}{0.25}
+
+\section*{Contract Hunt: Abstract Analysis}
+
+\subsection*{Directions}
+Choose \textbf{three} computing innovations from the provided abstracts.  
+\begin{itemize}
+    \item Underline the \textbf{input}, circle the \textbf{output}, and bracket the \textbf{purpose}.
+    \item Then fill in the reflection table for each abstract using your own words.
+\end{itemize}
+
+\subsection*{Abstract \#1:}
+\noindent\textbf{Title:} \hrulefill \\
+\textbf{Input:} \hrulefill \\
+\textbf{Output:} \hrulefill \\
+\textbf{Purpose:} \hrulefill \\
+\textbf{Assumptions or Concerns:} \hrulefill \par
+
+\vspace{1em}
+
+\subsection*{Abstract \#2:}
+\noindent\textbf{Title:} \hrulefill \\
+\textbf{Input:} \hrulefill \\
+\textbf{Output:} \hrulefill \\
+\textbf{Purpose:} \hrulefill \\
+\textbf{Assumptions or Concerns:} \hrulefill \par
+
+\vspace{1em}
+
+\subsection*{Abstract \#3:}
+\noindent\textbf{Title:} \hrulefill \\
+\textbf{Input:} \hrulefill \\
+\textbf{Output:} \hrulefill \\
+\textbf{Purpose:} \hrulefill \\
+\textbf{Assumptions or Concerns:} \hrulefill \par
+
+\vspace{2em}
+
+\section*{Invent a Tool}
+Come up with a new computing tool that solves a problem or helps someone. Define its contract.
+
+\vspace{1em}
+
+\noindent\textbf{Tool Name or Problem it Solves:} \hrulefill \\
+\textbf{Input:} \hrulefill \\
+\textbf{Output:} \hrulefill \\
+\textbf{Purpose:} \hrulefill \\
+\textbf{Who would use it? What could go wrong?} \par
+\hrulefill \par
+\hrulefill
+
+\vspace{2em}
+
+\section*{Exit Ticket}
+Why do computer scientists define contracts before they code?
+\vspace{1em}
+
+\dotgridboxsize{7}{3}{0.25}
+
+\end{document}
