@@ -1,10 +1,8 @@
 ---
-layout: home
+layout: default
 title: "Unit 0 - The Story of Data"
-sidebar:
-  nav: "main"
-author_profile: true
-permalink: /
+author: Eric Allatta
+categories: curriculum cs9 syllabus
 ---
 
 

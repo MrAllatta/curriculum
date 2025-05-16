@@ -1,9 +1,16 @@
-**Unit 1: Programming by Design (Racket)**
-*Framing Concept: A program is a structured solution to a problem.*
+---
+layout: default
+title: "Unit 1 - Programming by Design"
+author: Eric Allatta
+categories: curriculum cs9 syllabus
+---
+
+## Unit 1: Programming by Design (Racket)
+**Framing Concept: A program is a structured solution to a problem.**
 
 ---
 
-**Unit Overview:**
+### Unit Overview
 This unit introduces students to programming through a function-first, design-oriented approach. The goal is not just to "write code," but to understand what makes a solution correct, clear, and adaptable. Students build mental models for inputs, outputs, structure, and testing. Using a Beginning Student Language (Racket) and the design recipe, students gain fluency in creating small, testable, purpose-driven programs that reinforce algebraic reasoning and prepare them for later work in data, control systems, and abstraction.
 
 ---

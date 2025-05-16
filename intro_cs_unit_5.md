@@ -1,7 +1,6 @@
 ---
-layout: post
-title: "Unit 5: Code in the Wild"
-date: 2025-05-15
+layout: default
+title: "Unit 5 - Code in the Wild"
 author: Eric Allatta
 categories: curriculum cs9 syllabus
 sidebar:

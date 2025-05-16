@@ -1,11 +1,8 @@
 ---
-layout: post
-title: "Unit 4: Interface and Communication"
-date: 2025-05-15
+layout: default
+title: "Unit 4 - Interface and Communication"
 author: Eric Allatta
 categories: curriculum cs9 syllabus
-sidebar:
-  nav: "main"
 ---
 
 ## Unit 4: Interface and Communication (HTML + CSS)

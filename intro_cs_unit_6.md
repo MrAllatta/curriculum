@@ -1,11 +1,8 @@
 ---
-layout: post
-title: "Unit 6: Networks, Protocols, and Power"
-date: 2025-05-15
+layout: default
+title: "Unit 6 - Networks, Protocols, and Power"
 author: Eric Allatta
 categories: curriculum cs9 syllabus
-sidebar:
-  nav: "main"
 ---
 
 ## Unit 6: Networks, Protocols, and Power

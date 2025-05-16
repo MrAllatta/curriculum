@@ -1,11 +1,8 @@
 ---
-layout: post
-title: "Unit 7: Capstone Projects"
-date: 2025-05-15
+layout: default
+title: "Unit 7 - Capstone Projects"
 author: Eric Allatta
 categories: curriculum cs9 syllabus
-sidebar:
-  nav: "main"
 ---
 
 ## Unit 7: Capstone Projects

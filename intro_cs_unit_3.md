@@ -1,11 +1,8 @@
 ---
-layout: post
-title: "Unit 3: Systems and Control"
-date: 2025-05-15
+layout: default
+title: "Unit 3 - Systems and Control"
 author: Eric Allatta
 categories: curriculum cs9 syllabus
-sidebar:
-  nav: "main"
 ---
 
 ## Unit 3: Systems and Control (Python + EarSketch)

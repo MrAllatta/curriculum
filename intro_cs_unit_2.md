@@ -1,14 +1,11 @@
 ---
-layout: post
-title: "Unit 3: Data Science and Representation"
-date: 2025-05-15
+layout: default
+title: "Unit 2 - Data Science and Representation"
 author: Eric Allatta
 categories: curriculum cs9 syllabus
-sidebar:
-  nav: "main"
 ---
 
-## Unit 3: Data Science and Representation (Pyret)
+## Unit 2: Data Science and Representation (Pyret)
 **Framing Concept: Data is a constructed lens on the world.**
 
 ### Unit Overview
