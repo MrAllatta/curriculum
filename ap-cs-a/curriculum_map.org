@@ -1,0 +1,227 @@
+High-Level Curriculum Map for AP Computer Science A
+============================================
+
+* Overview
+---------
+This high-level curriculum map outlines a structured, logical
+progression for teaching AP Computer Science A, placing an emphasis on
+fostering student understanding of key programming concepts and
+computational thinking practices. Special attention will be given to
+contracts, preconditions, understanding examples, and empowering
+students to "think with data" as foundational skills derived from the
+"Program by Design" approach.
+
+Throughout the course, students will:
+
+- Understand and utilize explicit and implicit data representation.
+- Develop incremental coding solutions emphasizing design contracts.
+- Utilize examples and tests to clarify expectations, behaviors, and
+  boundary conditions.
+- Recognize, document, and respect method preconditions.
+- Foster good programming habits using examples, logical tests, and
+  debugging skills.
+- Incorporate strong reasoning about program correctness, performance,
+  and clarity.
+- Develop awareness of real-world ethical and social issues in
+  computing, particularly related to data and privacy.
+
+* Curriculum Rationale
+---------------------
+This curriculum is grounded in Computational Thinking Practices
+defined by the AP CS A framework, emphasizing a thoughtful approach to
+programming and problem-solving. Each unit spirals back to the themes
+of contracts, examples, testing, preconditions, and thinking with
+data. Students use Java, aligning their knowledge with the content
+provided in the AP Computer Science A Course Framework effective
+fall 2025.
+
+* Course Units
+-------------
+The high-level sequence of units is inspired by College Board guidance
+but explicitly connects the course to Program by Design methodologies
+and "data-first" thinking. The timeframe listed is based on daily
+45-minute classes and covers approximately 140-145 instructional days
+(~29 instructional weeks), reserving additional days for projects,
+review, and assessment practice.
+
+** Unit 1: Foundations, Contracts, Data Types, and Methods (~6 weeks)
+-----------------
+*** Essential Questions:
+- How can data be represented explicitly in programs?
+- What are contracts, and how do they guide program design?
+- Why is it critical to clarify preconditions and expected inputs when
+  designing methods?
+
+*** Key Topics:
+  - Introduction to computational thinking, algorithms, data
+    representation
+  - Variables, primitive data types, and basic reference types
+  - Program input and output, casting, range, numeric representation
+  - Defining method contracts: inputs, outputs, examples,
+    preconditions, and assumed responsibilities
+  - Calling built-in methods and APIs (Math, String)
+  - Formulating explicitly clear examples in designing and documenting
+    code
+
+*** Assess:
+- Unit Progress Checks: topics 1.1-1.15
+- FRQ practice (Methods and Control Structures, partial
+  implementation)
+
+** Unit 2: Designing Algorithms with Conditionals and Iteration (~6 weeks)
+-----------------
+*** Essential Questions:
+- How do selection and iterative constructs model decision-making and
+  repetition in our solutions?
+- How can we develop robust solutions by reasoning through explicit
+  examples and cases?
+- Why should preconditions and examples always be clarified when
+  designing selection and iterative code?
+
+*** Key Topics:
+  - Boolean logic, if/if-else, nested conditionals, iterative loops
+    (while, for)
+  - Preconditions and contracts for iterative processes (loop
+    invariants, loop boundaries, off-by-one errors)
+  - Designing and implementing well-defined algorithms with explicit
+    examples/test cases
+  - Reasoning about the correctness of loops, modeling decision-making
+    explicitly
+  - Informal run-time analysis of algorithms (counting steps)
+
+*** Assess:
+- Unit Progress Checks: topics 2.1-2.12
+- FRQ practice (Methods and Control Structures, partial
+  implementation)
+
+** Unit 3: Designing Classes, Data Encapsulation, and Abstraction (~4 weeks)
+-----------------
+*** Essential Questions:
+- How can real-world data and relationships be represented clearly
+  through objects?
+- Why are constructors and methods contracts necessary to the design
+  of reliable data structures?
+- How do data encapsulation and abstraction improve programs and
+  clarify implementation boundaries?
+
+*** Key Topics:
+  - Anatomy of a class: constructors, instance variables
+  - Defining robust initial conditions and invariants, reasoning about
+    state transitions
+  - Understanding constructors and enforcing clear data representation
+    and invariants
+  - Using procedural abstraction to clarify methods, interfaces, and
+    responsibilities
+  - Identifying proper use of public/private access modifiers, this
+    keyword
+  - Exploring ethical/social implications of responsible design and
+    privacy
+
+*** Assess:
+- Unit Progress Checks: topics 3.1-3.9
+- FRQ practice (Class Design)
+
+** Unit 4: Thinking with Collections of Data (~7 weeks)
+-----------------
+*** Essential Questions:
+- How can computational solutions consolidate multiple distinct
+  elements into cohesive collections?
+- Why should algorithmic reasoning emphasize each step explicitly
+  through examples and testing?
+- How do we assess correctness and reasoning on data-structure
+  traversal through explicit test cases?
+
+** Key Topics:
+  - Ethical/social concerns surrounding data collections and use
+  - Arrays, ArrayList: creating, accessing elements, and reasoning via
+    examples
+  - Traversing collections, developing standard algorithms (max/min,
+    sum, search, remove, reverse)
+  - Accessing external data (e.g., text files, real-world data)
+  - Traversing and manipulating two-dimensional arrays (row-major
+    order and other patterns)
+  - Sorting and searching algorithms: selection sort, insertion sort,
+    merge sort, linear search, binary search
+  - Recursive techniques: tracing and reasoning
+
+*** Assess:
+- Unit Progress Checks: topics 4.1-4.17
+- FRQ practice (Data Analysis with ArrayList, 2D Array)
+
+** Review, Project, and Exam Preparation (~5 weeks, interspersed)
+-----------------
+*** Essential Questions:
+- How can we integrate all programming concepts into solving
+  meaningful problems?
+- What metacognitive strategies support learning and reflection as we
+  prepare independently?
+
+*** Key Topics and Activities:
+  - Mid-year and end-year comprehensive practice or mock exams
+  - Formative assessment loops (FRQ practice in class)
+  - Review using past AP CS A exams, practice FRQs, and targeted
+    multiple-choice practice exercises
+  - Design and implement programming projects emphasizing contracts,
+    data structures, algorithms, and preconditions
+
+* Teaching Strategies Throughout the Year
+------------------------
+- Deliberate focus on problem decomposition through examples and
+  clearly defined tests
+- Robust iterative solution refinement through continuous formative
+  assessments
+- Heavy emphasis on designing tests before implementation (test-driven
+  design mindset)
+- Collaborative analysis and explicit reasoning: structured
+  Think-Pair-Share and Pair Programming
+- Structured reflection on ethical implications of technology and data
+  privacy
+- Scaffolded strategies inspired by Program by Design ("How to Design
+  Programs") approach:
+  - Example-based programming emphasized early in each concept
+  - Contracts-driven exercises, test-then-implement practice
+  - Emphasis on clearly specified preconditions and conditions of use
+  - Regular meta-discussions emphasizing the rationale behind each
+    programming decision
+
+** Tools and IDEs
+--------------
+- Recommend an approachable Java IDE, such as BlueJ or DrJava early on
+  for pedagogy, then optionally introducing Eclipse, Intellij, or
+  VSCode as they mature
+- Encourage use of lightweight REPL environments to experiment easily
+  with Java commands and tests
+- Integrate Emacs style or other editor emulation optionally for
+  explicitly developing disciplined programming habits if motivated by
+  teaching style
+
+** Integrating AI Responsibly
+-----------------------
+- Thoughtful integration of generative AI tools for code explanations,
+  solution refinement, and examples/examples generation
+- Structured discussion on ethical implications of AI, algorithmic
+  bias, and responsible computing practices
+- Emphasize developing independent analytic skills—students evaluate,
+  question, and improve any AI-supported code snippets rather than
+  accept AI output passively
+
+** Assessment Strategy
+--------------------
+- Align assessment with AP CS A CED's computing-thinking practices and
+  learning objectives.
+- Frequent use of formative progress checks and partial-FRQ practice
+  assessments integrated into classroom experiences to guide learning
+  and discern misunderstandings.
+- Final exam preparation optimally utilizing College Board-released AP
+  CS A questions, practice exams, and guided reflection.
+
+* Final Thoughts
+---------------
+This high-level curriculum map is intended to offer clear guidance and
+structure within the AP CS A framework and the time available, in
+alignment with AP Course & Exam Description effective fall 2025. It
+explicitly incorporates the virtues of a Lisp/Scheme/Racket-inspired
+pedagogy through careful attention to data-first thinking,
+contracts-driven design, rigorous reasoning using examples,
+test-driven iteration, and explicit attention to method preconditions
+and behaviors.
