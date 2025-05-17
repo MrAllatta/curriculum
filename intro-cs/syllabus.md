@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Intro to CS Syllabus
+title: Introduction to Computer Science
 nav_order: 0
 ---
 
@@ -40,7 +40,7 @@ Students move from mental models and abstraction, to pure functions and data sys
 
 | Phase | Tools & Languages | Focus |
 |-------|------------------|-------|
-| Weeks 0–1 | Markdown, terminal, folder hygiene | Naming, abstraction, structure |
+| Unit 0 | Markdown, terminal, folder hygiene | Naming, abstraction, structure |
 | Unit 1 | Racket (HtDP) | Functional reasoning, recursion |
 | Unit 2 | Pyret (Bootstrap:Data Science) | Tables, filtering, inference |
 | Unit 3 | Python + EarSketch | Loops, state, simulation, systems |
