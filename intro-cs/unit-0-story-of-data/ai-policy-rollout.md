@@ -1,6 +1,6 @@
 ---
 title: Lesson Plan — AI Policy Rollout
-parent: Introduction to Computer Science
+parent: Unit 0 - The Story of Data
 ---
 
 # Lesson Plan — Communicating and Owning AI Policy
