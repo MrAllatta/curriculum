@@ -1,6 +1,6 @@
 ---
 title: Course Statement on Mistakes
-parent: Introduction to Computer Science
+parent: Course Philosophy
 ---
 
 # Course Statement on Mistakes
