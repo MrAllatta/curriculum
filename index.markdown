@@ -19,12 +19,12 @@ A full-year course rooted in functional reasoning, data science, and systems con
 
 ## In Development
 
-### [Data Science & Modeling](/data-science.html)
+### [Data Science & Modeling]({{ '/data-science.html' | relative_url }})
 *Coming Soon: Investigative computing through modeling, simulation, and statistical reasoning.*
 
 Targeted for upper grades and capstone pathways. Emphasizes reproducibility, research workflows, and interpretation of complex systems.
 
-### [Math/CS Capstone](/capstone.html)
+### [Math/CS Capstone]({{ '/capstone.html' | relative_url }})
 *Coming Soon: Synthesis, critique, and publication.*
 
 A project-based, interdisciplinary senior experience. Students design, build, and defend computational artifacts with clear mathematical structure and civic relevance.
@@ -33,6 +33,6 @@ A project-based, interdisciplinary senior experience. Students design, build, an
 
 ## Planning & Support
 
-### [Teacher Notes and Planning Docs](/planning.md)
+### [Teacher Notes and Planning Docs]({{ '/planning.html' | relative_url }})
 Syllabi, pedagogical rationales, glossaries, and pacing guidance. For instructors, mentors, and curriculum developers.
 
