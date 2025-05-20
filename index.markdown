@@ -33,6 +33,6 @@ A project-based, interdisciplinary senior experience. Students design, build, an
 
 ## Planning & Support
 
-### [Teacher Notes and Planning Docs]({{ '/planning.html' | relative_url }})
+### [Teacher Notes and Planning Docs]({{ 'intro-cs/planning.html' | relative_url }})
 Syllabi, pedagogical rationales, glossaries, and pacing guidance. For instructors, mentors, and curriculum developers.
 
