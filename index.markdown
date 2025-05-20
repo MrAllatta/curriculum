@@ -10,7 +10,7 @@ This site hosts modular, sequenced curriculum for computer science and integrate
 
 ## Available Courses
 
-### [Intro to Computer Science (9th Grade)](/intro-cs/syllabus.html)
+### [Intro to Computer Science (9th Grade)]({{ '/intro-cs/syllabus.html' | relative_url }})
 *Programming by Design: Computing, Representation, and Reasoning*
 
 A full-year course rooted in functional reasoning, data science, and systems control. Students engage with recursion, tables, control flow, web design, APIs, and network concepts through projects that blend mathematical precision with ethical inquiry.
