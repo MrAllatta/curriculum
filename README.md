@@ -1,7 +1,3 @@
-Certainly, here's a README tailored for your GitHub repository, [MrAllatta/curriculum](https://github.com/MrAllatta/curriculum), reflecting your focus on integrating computer science concepts into mathematics education.
-
----
-
 # MrAllatta/curriculum
 
 Welcome to the **curriculum** repository—a collection of lesson plans, activities, and resources designed to bridge the gap between mathematics and computer science. This repository aims to provide educators with tools to help students conceptualize mathematical functions through the lens of programming and interface design.
