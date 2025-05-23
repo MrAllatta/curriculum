@@ -21,18 +21,19 @@ Students move from mental models and abstraction, to pure functions and data sys
 
 ## Units & Concepts
 
-| Unit | Title | Framing Concept |
-|------|-------|-----------------|
-| 0 | [The Story of Data](/intro-cs/unit-0-story-of-data.html) | Programming is communication between humans and machines. |
-| 1 | [Programming by Design (Racket)](/intro-cs/unit-1-design-racket.html) | A program is a structured solution to a problem. |
-| 2 | [Data Science and Representation (Pyret)](/intro-cs/unit-2-data-science-pyret.html) | Data is a constructed lens on the world. |
-| 3 | [Systems and Control (Python + EarSketch)](/intro-cs/unit-3-systems-python.html) | Programs model dynamic systems through control flow and state. |
-| 4 | [Interface and Communication (HTML + CSS)](/intro-cs/unit-4-interface-and-communication.html) | Code is interpretation—computational ideas need an audience. |
-| 5 | [Code in the Wild (APIs + Jupyter)](/intro-cs/unit-5-code-in-the-wild.html) | Code lives in systems, documents itself, and pulls from the web. |
-| 6 | [Networks, Protocols, and Power](/intro-cs/unit-6-networks-protocols-power.html) | The internet is a system of abstractions that shapes global power. |
-| 7 | [Capstone Projects](/intro-cs/unit-7-capstone.html) | What can you build, explain, and defend? |
+| Unit | Title                                                                                             | Framing Concept                          |                                                                    |
+|------|---------------------------------------------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------------|
+| 0    | [The Story of Data]({{ '/intro-cs/unit-0-story-of-data.html'                                      | relative_url }})                         | Programming is communication between humans and machines.          |
+| 1    | [Programming by Design (Racket)]({{ '/intro-cs/unit-1-design-racket.html'                         | relative_url }})                         | A program is a structured solution to a problem.                   |
+| 2    | [Data Science and Representation (Pyret)]({{ '/intro-cs/unit-2-data-science-pyret.html'           | relative_url }})                         | Data is a constructed lens on the world.                           |
+| 3    | [Systems and Control (Python + EarSketch)]({{ '/intro-cs/unit-3-systems-python.html'              | relative_url }})                         | Programs model dynamic systems through control flow and state.     |
+| 4    | [Interface and Communication (HTML + CSS)]({{ '/intro-cs/unit-4-interface-and-communication.html' | relative_url }})                         | Code is interpretation—computational ideas need an audience.       |
+| 5    | [Code in the Wild (APIs + Jupyter)]({{ '/intro-cs/unit-5-code-in-the-wild.html'                   | relative_url }})                         | Code lives in systems, documents itself, and pulls from the web.   |
+| 6    | [Networks, Protocols, and Power]({{ '/intro-cs/unit-6-networks-protocols-power.html'              | relative_url }})                         | The internet is a system of abstractions that shapes global power. |
+| 7    | [Capstone Projects]({{ '/intro-cs/unit-7-capstone.html' | relative_url  }})                                           | What can you build, explain, and defend? |                                                                    |
+|      |                                                                                                   |                                          |                                                                    |
 
-➡️ [View Unit Appendix](/intro_cs/syllabus_appendix.html)
+➡️ [View Unit Appendix]({{ '/intro_cs/syllabus_appendix.html' | relative_url }})
 
 ---
 
